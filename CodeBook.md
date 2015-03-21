@@ -16,11 +16,12 @@ The mean_data.txt file in the working directory can be opened in R with the foll
 read.table("./mean_data.txt", header=TRUE)
 
 The table has 180 observations for 81 variables
+
 | column                       | description                                              | type    |
 | ---------------------------- | -------------------------------------------------------- | ------- |
 | Subject                      | Identifier of the subject                                | integer |
 | Activity_ID                  | Identifier of the activity                               | integer |
 | Activity_Label               | Label of the Activity_ID                                 | factor  |
-| Various mean/std measurements| Average value for per subject per activity               | numeric |
+| Various mean/std measurements| Average value per subject per activity                   | numeric |
 
 
