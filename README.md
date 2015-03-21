@@ -24,5 +24,6 @@ The run_analysis.R script will merge the training and test datasets into a singl
 Lastly, the script will generate a tidy data set with the means of each of the extracted measurements per activity per subject. This tidy data set will be written to a mean_data.txt file, which can be found in the working directory
 
 The following are required to be done before running the script:
+
 1. The raw data must be downloaded and extracted into "UCI RAR Dataset" folder in the working directory
 2. "reshape2" and "data.table" package to be installed
